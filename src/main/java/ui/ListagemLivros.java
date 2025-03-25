@@ -3,6 +3,7 @@ package ui;
 import dao.LivroDAO;
 import exception.DAOException;
 import model.Livro;
+import util.Utils;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
@@ -17,6 +18,7 @@ public class ListagemLivros extends JFrame {
 
     public ListagemLivros() {
         livroDAO = new LivroDAO();
+        Utils.setFrameIcon(this, "img/logo.png", 100, 100);
         initUI();
         carregarLivros();
     }

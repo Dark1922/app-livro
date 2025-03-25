@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<livros>
+    <livro>
+        <titulo>Dom Quixote</titulo>
+        <autores>Miguel de Cervantes</autores>
+        <dataPublicacao>1605-01-01</dataPublicacao>
+        <isbn>9780060934347</isbn>
+        <editora>Editora A</editora>
+        <livrosSemelhantes></livrosSemelhantes>
+    </livro>
+    <livro>
+        <titulo>1984</titulo>
+        <autores>George Orwell</autores>
+        <dataPublicacao>1949-06-08</dataPublicacao>
+        <isbn>9780451524935</isbn>
+        <editora>Editora B</editora>
+        <livrosSemelhantes>Admirável Mundo Novo,Fahrenheit 451</livrosSemelhantes>
+    </livro>
+    <livro>
+        <titulo>O Pequeno Príncipe</titulo>
+        <autores>Antoine de Saint-Exupéry</autores>
+        <dataPublicacao>1943-04-06</dataPublicacao>
+        <isbn>9780156013925</isbn>
+        <editora>Editora C</editora>
+        <livrosSemelhantes>O Alquimista,O Profeta</livrosSemelhantes>
+    </livro>
+</livros>
